@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tuya_ble"
+version = "0.1.0"
+description = "Control Tuya BLE devices"
+authors = ["PlusPlus-ua <alexplas@gmail.com>"]
+license = "MTI"
+readme = "README.md"
+packages = [{include = "tuya_ble"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncio = "^3.4.3"
+bleak = "^0.19.5"
+bleak-retry-connector = "^3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
